@@ -7,21 +7,117 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA59DB4063BCE468A55CAAAC /* Pods_ThreadClone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 013E0A92CC170CCA9DA7AC63 /* Pods_ThreadClone.framework */; };
+		FF00EA1A2ADFAD3900AED95A /* TCRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF00EA192ADFAD3900AED95A /* TCRegistrationViewController.swift */; };
+		FF00EA1C2ADFAD5000AED95A /* TCRegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF00EA1B2ADFAD5000AED95A /* TCRegistrationView.swift */; };
+		FF05539B2B006EED00C31E56 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF05539A2B006EEC00C31E56 /* GoogleService-Info.plist */; };
 		FF0624082ADE2C9E00D6DC1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0624072ADE2C9E00D6DC1A /* AppDelegate.swift */; };
 		FF06240A2ADE2C9E00D6DC1A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0624092ADE2C9E00D6DC1A /* SceneDelegate.swift */; };
-		FF06240C2ADE2C9E00D6DC1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF06240B2ADE2C9E00D6DC1A /* ViewController.swift */; };
 		FF0624112ADE2CA100D6DC1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF0624102ADE2CA100D6DC1A /* Assets.xcassets */; };
 		FF0624142ADE2CA100D6DC1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF0624122ADE2CA100D6DC1A /* LaunchScreen.storyboard */; };
+		FF0ACBC52AE26AF50071F9AF /* TCAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0ACBC42AE26AF50071F9AF /* TCAvatarImageView.swift */; };
+		FF0ACBC72AE274360071F9AF /* TCSearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0ACBC62AE274360071F9AF /* TCSearchTableViewCell.swift */; };
+		FF31DE362ADE5056002D0259 /* TCAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF31DE352ADE5056002D0259 /* TCAuthViewController.swift */; };
+		FF31DE382ADE5091002D0259 /* TCAuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF31DE372ADE5091002D0259 /* TCAuthView.swift */; };
+		FF31DE3A2ADE55BE002D0259 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF31DE392ADE55BE002D0259 /* Extensions.swift */; };
+		FF31DE3D2ADE7883002D0259 /* TCTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF31DE3C2ADE7883002D0259 /* TCTextField.swift */; };
+		FF4010A42B073D4D002C7506 /* TCThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4010A32B073D4D002C7506 /* TCThread.swift */; };
+		FF4010A62B073F54002C7506 /* TCThreadCreationViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4010A52B073F54002C7506 /* TCThreadCreationViewViewModel.swift */; };
+		FF4010A82B074C5F002C7506 /* TCThreadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4010A72B074C5F002C7506 /* TCThreadService.swift */; };
+		FF4010AA2B07663D002C7506 /* TCPlaceholderWithImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4010A92B07663D002C7506 /* TCPlaceholderWithImageView.swift */; };
+		FF4010AC2B077ECC002C7506 /* TCThreadsViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4010AB2B077ECC002C7506 /* TCThreadsViewViewModel.swift */; };
+		FF50D9AA2AF0B3CB005D2E57 /* TCProfileTabItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF50D9A92AF0B3CB005D2E57 /* TCProfileTabItemView.swift */; };
+		FF584DED2B19F85200EA9D6D /* TCEditCurrentProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF584DEC2B19F85200EA9D6D /* TCEditCurrentProfileViewController.swift */; };
+		FF585B592B04AC34000C10BA /* TCSearchViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF585B582B04AC34000C10BA /* TCSearchViewViewModel.swift */; };
+		FF585B5B2B04B855000C10BA /* TCSearchTableViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF585B5A2B04B855000C10BA /* TCSearchTableViewCellViewModel.swift */; };
+		FF617FB52B00AD4900F6AEFF /* TCRegistrationViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF617FB42B00AD4900F6AEFF /* TCRegistrationViewViewModel.swift */; };
+		FF617FB82B00D5E100F6AEFF /* TCAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF617FB72B00D5E100F6AEFF /* TCAuthService.swift */; };
+		FF6EB4D12B031E3100BBE7D4 /* TCUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6EB4D02B031E3100BBE7D4 /* TCUser.swift */; };
+		FF6EB4D32B03556F00BBE7D4 /* TCUserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6EB4D22B03556F00BBE7D4 /* TCUserService.swift */; };
+		FF6EB4D52B0359B500BBE7D4 /* TCProfileViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6EB4D42B0359B500BBE7D4 /* TCProfileViewViewModel.swift */; };
+		FF70B8C22B2076D40061449D /* TCEditCurrentProfileViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF70B8C12B2076D40061449D /* TCEditCurrentProfileViewViewModel.swift */; };
+		FF70B8C42B207CF30061449D /* TCImageUploaderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF70B8C32B207CF30061449D /* TCImageUploaderService.swift */; };
+		FF7204572B05F31300AFF6C4 /* TCProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7204562B05F31300AFF6C4 /* TCProfileView.swift */; };
+		FF7204592B06007700AFF6C4 /* TCProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7204582B06007700AFF6C4 /* TCProfileViewController.swift */; };
+		FF801B1A2B1DC6ED00E0B23E /* TCEditCurrentProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF801B192B1DC6ED00E0B23E /* TCEditCurrentProfileView.swift */; };
+		FF8B4A592AE7CA42002B0650 /* TCAllActivitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B4A582AE7CA42002B0650 /* TCAllActivitiesViewController.swift */; };
+		FF8B4A5B2AE7CA6D002B0650 /* TCReplyAcitivitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B4A5A2AE7CA6D002B0650 /* TCReplyAcitivitiesViewController.swift */; };
+		FF8B4A5D2AE7CB0C002B0650 /* TCActivityTabItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B4A5C2AE7CB0C002B0650 /* TCActivityTabItemView.swift */; };
+		FFAAD8932AE13FB5009C63F5 /* TCTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAAD8922AE13FB5009C63F5 /* TCTabBarViewController.swift */; };
+		FFAAD8952AE1402C009C63F5 /* TCThreadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAAD8942AE1402C009C63F5 /* TCThreadsViewController.swift */; };
+		FFAAD8972AE1407F009C63F5 /* TCSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAAD8962AE1407E009C63F5 /* TCSearchViewController.swift */; };
+		FFAAD8992AE140A0009C63F5 /* TCActivitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAAD8982AE140A0009C63F5 /* TCActivitiesViewController.swift */; };
+		FFAAD89B2AE140C1009C63F5 /* TCCurrentProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAAD89A2AE140C1009C63F5 /* TCCurrentProfileViewController.swift */; };
+		FFAAD89D2AE1416A009C63F5 /* TCThreadCreationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAAD89C2AE1416A009C63F5 /* TCThreadCreationViewController.swift */; };
+		FFAAD8A22AE1490A009C63F5 /* TCThreadsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAAD8A12AE1490A009C63F5 /* TCThreadsTableViewCell.swift */; };
+		FFAAD8A42AE14999009C63F5 /* TCThreadsTableViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAAD8A32AE14999009C63F5 /* TCThreadsTableViewCellViewModel.swift */; };
+		FFB277C62B020C0100FF8477 /* TCAuthViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB277C52B020C0100FF8477 /* TCAuthViewViewModel.swift */; };
+		FFB733512AE609BC0095F0FD /* TCThreadCreationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB733502AE609BC0095F0FD /* TCThreadCreationView.swift */; };
+		FFBA9CB52B216D8600E3466B /* TCDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBA9CB42B216D8600E3466B /* TCDate.swift */; };
+		FFCA80AF2AE68DC300314F42 /* TCPagerPagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCA80AE2AE68DC300314F42 /* TCPagerPagesView.swift */; };
+		FFCA80B12AE692BF00314F42 /* TCPagerPageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCA80B02AE692BF00314F42 /* TCPagerPageCollectionViewCell.swift */; };
+		FFCA80B32AE6A53100314F42 /* TCPagerTabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCA80B22AE6A53100314F42 /* TCPagerTabsView.swift */; };
+		FFCA80B52AE6AAD600314F42 /* TCPagerTabCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCA80B42AE6AAD600314F42 /* TCPagerTabCollectionViewCell.swift */; };
+		FFCA80B72AE6B62D00314F42 /* TCPagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCA80B62AE6B62D00314F42 /* TCPagerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		013E0A92CC170CCA9DA7AC63 /* Pods_ThreadClone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThreadClone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2109C0B557E861A763D13873 /* Pods-ThreadClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThreadClone.debug.xcconfig"; path = "Target Support Files/Pods-ThreadClone/Pods-ThreadClone.debug.xcconfig"; sourceTree = "<group>"; };
+		7AF8EC0105C55860DE35B97D /* Pods-ThreadClone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThreadClone.release.xcconfig"; path = "Target Support Files/Pods-ThreadClone/Pods-ThreadClone.release.xcconfig"; sourceTree = "<group>"; };
+		FF00EA192ADFAD3900AED95A /* TCRegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCRegistrationViewController.swift; sourceTree = "<group>"; };
+		FF00EA1B2ADFAD5000AED95A /* TCRegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCRegistrationView.swift; sourceTree = "<group>"; };
+		FF05539A2B006EEC00C31E56 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FF0624042ADE2C9E00D6DC1A /* ThreadClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreadClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF0624072ADE2C9E00D6DC1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF0624092ADE2C9E00D6DC1A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FF06240B2ADE2C9E00D6DC1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FF0624102ADE2CA100D6DC1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF0624132ADE2CA100D6DC1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF0624152ADE2CA100D6DC1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF0ACBC42AE26AF50071F9AF /* TCAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCAvatarImageView.swift; sourceTree = "<group>"; };
+		FF0ACBC62AE274360071F9AF /* TCSearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCSearchTableViewCell.swift; sourceTree = "<group>"; };
+		FF31DE352ADE5056002D0259 /* TCAuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCAuthViewController.swift; sourceTree = "<group>"; };
+		FF31DE372ADE5091002D0259 /* TCAuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCAuthView.swift; sourceTree = "<group>"; };
+		FF31DE392ADE55BE002D0259 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		FF31DE3C2ADE7883002D0259 /* TCTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCTextField.swift; sourceTree = "<group>"; };
+		FF4010A32B073D4D002C7506 /* TCThread.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCThread.swift; sourceTree = "<group>"; };
+		FF4010A52B073F54002C7506 /* TCThreadCreationViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCThreadCreationViewViewModel.swift; sourceTree = "<group>"; };
+		FF4010A72B074C5F002C7506 /* TCThreadService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCThreadService.swift; sourceTree = "<group>"; };
+		FF4010A92B07663D002C7506 /* TCPlaceholderWithImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCPlaceholderWithImageView.swift; sourceTree = "<group>"; };
+		FF4010AB2B077ECC002C7506 /* TCThreadsViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCThreadsViewViewModel.swift; sourceTree = "<group>"; };
+		FF50D9A92AF0B3CB005D2E57 /* TCProfileTabItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCProfileTabItemView.swift; sourceTree = "<group>"; };
+		FF584DEC2B19F85200EA9D6D /* TCEditCurrentProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCEditCurrentProfileViewController.swift; sourceTree = "<group>"; };
+		FF585B582B04AC34000C10BA /* TCSearchViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCSearchViewViewModel.swift; sourceTree = "<group>"; };
+		FF585B5A2B04B855000C10BA /* TCSearchTableViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCSearchTableViewCellViewModel.swift; sourceTree = "<group>"; };
+		FF617FB42B00AD4900F6AEFF /* TCRegistrationViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCRegistrationViewViewModel.swift; sourceTree = "<group>"; };
+		FF617FB72B00D5E100F6AEFF /* TCAuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCAuthService.swift; sourceTree = "<group>"; };
+		FF6EB4D02B031E3100BBE7D4 /* TCUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCUser.swift; sourceTree = "<group>"; };
+		FF6EB4D22B03556F00BBE7D4 /* TCUserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCUserService.swift; sourceTree = "<group>"; };
+		FF6EB4D42B0359B500BBE7D4 /* TCProfileViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCProfileViewViewModel.swift; sourceTree = "<group>"; };
+		FF70B8C12B2076D40061449D /* TCEditCurrentProfileViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCEditCurrentProfileViewViewModel.swift; sourceTree = "<group>"; };
+		FF70B8C32B207CF30061449D /* TCImageUploaderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCImageUploaderService.swift; sourceTree = "<group>"; };
+		FF7204562B05F31300AFF6C4 /* TCProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCProfileView.swift; sourceTree = "<group>"; };
+		FF7204582B06007700AFF6C4 /* TCProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCProfileViewController.swift; sourceTree = "<group>"; };
+		FF801B192B1DC6ED00E0B23E /* TCEditCurrentProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCEditCurrentProfileView.swift; sourceTree = "<group>"; };
+		FF8B4A582AE7CA42002B0650 /* TCAllActivitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCAllActivitiesViewController.swift; sourceTree = "<group>"; };
+		FF8B4A5A2AE7CA6D002B0650 /* TCReplyAcitivitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCReplyAcitivitiesViewController.swift; sourceTree = "<group>"; };
+		FF8B4A5C2AE7CB0C002B0650 /* TCActivityTabItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCActivityTabItemView.swift; sourceTree = "<group>"; };
+		FFAAD8922AE13FB5009C63F5 /* TCTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCTabBarViewController.swift; sourceTree = "<group>"; };
+		FFAAD8942AE1402C009C63F5 /* TCThreadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCThreadsViewController.swift; sourceTree = "<group>"; };
+		FFAAD8962AE1407E009C63F5 /* TCSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCSearchViewController.swift; sourceTree = "<group>"; };
+		FFAAD8982AE140A0009C63F5 /* TCActivitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCActivitiesViewController.swift; sourceTree = "<group>"; };
+		FFAAD89A2AE140C1009C63F5 /* TCCurrentProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCCurrentProfileViewController.swift; sourceTree = "<group>"; };
+		FFAAD89C2AE1416A009C63F5 /* TCThreadCreationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCThreadCreationViewController.swift; sourceTree = "<group>"; };
+		FFAAD8A12AE1490A009C63F5 /* TCThreadsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCThreadsTableViewCell.swift; sourceTree = "<group>"; };
+		FFAAD8A32AE14999009C63F5 /* TCThreadsTableViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCThreadsTableViewCellViewModel.swift; sourceTree = "<group>"; };
+		FFB277C52B020C0100FF8477 /* TCAuthViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCAuthViewViewModel.swift; sourceTree = "<group>"; };
+		FFB733502AE609BC0095F0FD /* TCThreadCreationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCThreadCreationView.swift; sourceTree = "<group>"; };
+		FFBA9CB42B216D8600E3466B /* TCDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCDate.swift; sourceTree = "<group>"; };
+		FFCA80AE2AE68DC300314F42 /* TCPagerPagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCPagerPagesView.swift; sourceTree = "<group>"; };
+		FFCA80B02AE692BF00314F42 /* TCPagerPageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCPagerPageCollectionViewCell.swift; sourceTree = "<group>"; };
+		FFCA80B22AE6A53100314F42 /* TCPagerTabsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCPagerTabsView.swift; sourceTree = "<group>"; };
+		FFCA80B42AE6AAD600314F42 /* TCPagerTabCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCPagerTabCollectionViewCell.swift; sourceTree = "<group>"; };
+		FFCA80B62AE6B62D00314F42 /* TCPagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCPagerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +125,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA59DB4063BCE468A55CAAAC /* Pods_ThreadClone.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03DF5BCBA95CDBDF1A750676 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2109C0B557E861A763D13873 /* Pods-ThreadClone.debug.xcconfig */,
+				7AF8EC0105C55860DE35B97D /* Pods-ThreadClone.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		40C49FEF1D006864B9C793A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				013E0A92CC170CCA9DA7AC63 /* Pods_ThreadClone.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FF0623FB2ADE2C9E00D6DC1A = {
 			isa = PBXGroup;
 			children = (
 				FF0624062ADE2C9E00D6DC1A /* ThreadClone */,
 				FF0624052ADE2C9E00D6DC1A /* Products */,
+				03DF5BCBA95CDBDF1A750676 /* Pods */,
+				40C49FEF1D006864B9C793A2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,12 +171,15 @@
 			isa = PBXGroup;
 			children = (
 				FF06241B2ADE309900D6DC1A /* Resources */,
+				FFBA9CB32B216D7200E3466B /* Utils */,
+				FF31DE3B2ADE7866002D0259 /* Commons */,
 				FF0624202ADE30E000D6DC1A /* Managers */,
 				FF06241E2ADE30C000D6DC1A /* Models */,
 				FF06241D2ADE30B700D6DC1A /* Views */,
 				FF06241F2ADE30CB00D6DC1A /* ViewModels */,
 				FF06241C2ADE30A800D6DC1A /* Controllers */,
 				FF0624152ADE2CA100D6DC1A /* Info.plist */,
+				FF05539A2B006EEC00C31E56 /* GoogleService-Info.plist */,
 			);
 			path = ThreadClone;
 			sourceTree = "<group>";
@@ -70,6 +189,7 @@
 			children = (
 				FF0624072ADE2C9E00D6DC1A /* AppDelegate.swift */,
 				FF0624092ADE2C9E00D6DC1A /* SceneDelegate.swift */,
+				FF31DE392ADE55BE002D0259 /* Extensions.swift */,
 				FF0624102ADE2CA100D6DC1A /* Assets.xcassets */,
 			);
 			path = Resources;
@@ -78,7 +198,8 @@
 		FF06241C2ADE30A800D6DC1A /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				FF06240B2ADE2C9E00D6DC1A /* ViewController.swift */,
+				FFAAD8912AE13EB0009C63F5 /* Core */,
+				FF8B4A562AE7C4A0002B0650 /* Other */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -87,6 +208,15 @@
 			isa = PBXGroup;
 			children = (
 				FF0624122ADE2CA100D6DC1A /* LaunchScreen.storyboard */,
+				FF31DE372ADE5091002D0259 /* TCAuthView.swift */,
+				FF00EA1B2ADFAD5000AED95A /* TCRegistrationView.swift */,
+				FFAAD8A12AE1490A009C63F5 /* TCThreadsTableViewCell.swift */,
+				FF0ACBC62AE274360071F9AF /* TCSearchTableViewCell.swift */,
+				FFB733502AE609BC0095F0FD /* TCThreadCreationView.swift */,
+				FF8B4A5C2AE7CB0C002B0650 /* TCActivityTabItemView.swift */,
+				FF50D9A92AF0B3CB005D2E57 /* TCProfileTabItemView.swift */,
+				FF7204562B05F31300AFF6C4 /* TCProfileView.swift */,
+				FF801B192B1DC6ED00E0B23E /* TCEditCurrentProfileView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -94,6 +224,8 @@
 		FF06241E2ADE30C000D6DC1A /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				FF6EB4D02B031E3100BBE7D4 /* TCUser.swift */,
+				FF4010A32B073D4D002C7506 /* TCThread.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -101,6 +233,15 @@
 		FF06241F2ADE30CB00D6DC1A /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				FFB277C52B020C0100FF8477 /* TCAuthViewViewModel.swift */,
+				FF617FB42B00AD4900F6AEFF /* TCRegistrationViewViewModel.swift */,
+				FFAAD8A32AE14999009C63F5 /* TCThreadsTableViewCellViewModel.swift */,
+				FF6EB4D42B0359B500BBE7D4 /* TCProfileViewViewModel.swift */,
+				FF585B582B04AC34000C10BA /* TCSearchViewViewModel.swift */,
+				FF585B5A2B04B855000C10BA /* TCSearchTableViewCellViewModel.swift */,
+				FF4010A52B073F54002C7506 /* TCThreadCreationViewViewModel.swift */,
+				FF4010AB2B077ECC002C7506 /* TCThreadsViewViewModel.swift */,
+				FF70B8C12B2076D40061449D /* TCEditCurrentProfileViewViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -108,8 +249,77 @@
 		FF0624202ADE30E000D6DC1A /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				FF617FB72B00D5E100F6AEFF /* TCAuthService.swift */,
+				FF6EB4D22B03556F00BBE7D4 /* TCUserService.swift */,
+				FF4010A72B074C5F002C7506 /* TCThreadService.swift */,
+				FF70B8C32B207CF30061449D /* TCImageUploaderService.swift */,
 			);
 			path = Managers;
+			sourceTree = "<group>";
+		};
+		FF31DE3B2ADE7866002D0259 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				FF8B4A552AE76A2F002B0650 /* ViewPager */,
+				FF31DE3C2ADE7883002D0259 /* TCTextField.swift */,
+				FF0ACBC42AE26AF50071F9AF /* TCAvatarImageView.swift */,
+				FF4010A92B07663D002C7506 /* TCPlaceholderWithImageView.swift */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		FF8B4A552AE76A2F002B0650 /* ViewPager */ = {
+			isa = PBXGroup;
+			children = (
+				FFCA80B42AE6AAD600314F42 /* TCPagerTabCollectionViewCell.swift */,
+				FFCA80B22AE6A53100314F42 /* TCPagerTabsView.swift */,
+				FFCA80B02AE692BF00314F42 /* TCPagerPageCollectionViewCell.swift */,
+				FFCA80AE2AE68DC300314F42 /* TCPagerPagesView.swift */,
+				FFCA80B62AE6B62D00314F42 /* TCPagerView.swift */,
+			);
+			name = ViewPager;
+			sourceTree = "<group>";
+		};
+		FF8B4A562AE7C4A0002B0650 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				FF8B4A572AE7CA24002B0650 /* Activity */,
+				FF7204582B06007700AFF6C4 /* TCProfileViewController.swift */,
+				FF584DEC2B19F85200EA9D6D /* TCEditCurrentProfileViewController.swift */,
+				FF31DE352ADE5056002D0259 /* TCAuthViewController.swift */,
+				FF00EA192ADFAD3900AED95A /* TCRegistrationViewController.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		FF8B4A572AE7CA24002B0650 /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				FF8B4A582AE7CA42002B0650 /* TCAllActivitiesViewController.swift */,
+				FF8B4A5A2AE7CA6D002B0650 /* TCReplyAcitivitiesViewController.swift */,
+			);
+			path = Activity;
+			sourceTree = "<group>";
+		};
+		FFAAD8912AE13EB0009C63F5 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FFAAD8982AE140A0009C63F5 /* TCActivitiesViewController.swift */,
+				FFAAD8962AE1407E009C63F5 /* TCSearchViewController.swift */,
+				FFAAD89A2AE140C1009C63F5 /* TCCurrentProfileViewController.swift */,
+				FFAAD8922AE13FB5009C63F5 /* TCTabBarViewController.swift */,
+				FFAAD8942AE1402C009C63F5 /* TCThreadsViewController.swift */,
+				FFAAD89C2AE1416A009C63F5 /* TCThreadCreationViewController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		FFBA9CB32B216D7200E3466B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FFBA9CB42B216D8600E3466B /* TCDate.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,9 +329,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF0624182ADE2CA100D6DC1A /* Build configuration list for PBXNativeTarget "ThreadClone" */;
 			buildPhases = (
+				AED9B67C453044CEB0389554 /* [CP] Check Pods Manifest.lock */,
 				FF0624002ADE2C9E00D6DC1A /* Sources */,
 				FF0624012ADE2C9E00D6DC1A /* Frameworks */,
 				FF0624022ADE2C9E00D6DC1A /* Resources */,
+				9BC9012D833D25D0A08A16C3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -172,19 +384,107 @@
 			files = (
 				FF0624142ADE2CA100D6DC1A /* LaunchScreen.storyboard in Resources */,
 				FF0624112ADE2CA100D6DC1A /* Assets.xcassets in Resources */,
+				FF05539B2B006EED00C31E56 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9BC9012D833D25D0A08A16C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ThreadClone/Pods-ThreadClone-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ThreadClone/Pods-ThreadClone-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ThreadClone/Pods-ThreadClone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AED9B67C453044CEB0389554 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ThreadClone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FF0624002ADE2C9E00D6DC1A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF06240C2ADE2C9E00D6DC1A /* ViewController.swift in Sources */,
+				FFAAD89D2AE1416A009C63F5 /* TCThreadCreationViewController.swift in Sources */,
+				FFAAD8A42AE14999009C63F5 /* TCThreadsTableViewCellViewModel.swift in Sources */,
+				FF31DE382ADE5091002D0259 /* TCAuthView.swift in Sources */,
+				FF70B8C42B207CF30061449D /* TCImageUploaderService.swift in Sources */,
+				FFAAD8972AE1407F009C63F5 /* TCSearchViewController.swift in Sources */,
+				FF70B8C22B2076D40061449D /* TCEditCurrentProfileViewViewModel.swift in Sources */,
+				FFB277C62B020C0100FF8477 /* TCAuthViewViewModel.swift in Sources */,
+				FF7204592B06007700AFF6C4 /* TCProfileViewController.swift in Sources */,
+				FF8B4A592AE7CA42002B0650 /* TCAllActivitiesViewController.swift in Sources */,
+				FF585B592B04AC34000C10BA /* TCSearchViewViewModel.swift in Sources */,
+				FF7204572B05F31300AFF6C4 /* TCProfileView.swift in Sources */,
+				FF31DE3A2ADE55BE002D0259 /* Extensions.swift in Sources */,
+				FF31DE362ADE5056002D0259 /* TCAuthViewController.swift in Sources */,
+				FF617FB52B00AD4900F6AEFF /* TCRegistrationViewViewModel.swift in Sources */,
+				FF0ACBC52AE26AF50071F9AF /* TCAvatarImageView.swift in Sources */,
+				FFCA80B32AE6A53100314F42 /* TCPagerTabsView.swift in Sources */,
+				FFCA80B12AE692BF00314F42 /* TCPagerPageCollectionViewCell.swift in Sources */,
+				FF8B4A5B2AE7CA6D002B0650 /* TCReplyAcitivitiesViewController.swift in Sources */,
+				FF50D9AA2AF0B3CB005D2E57 /* TCProfileTabItemView.swift in Sources */,
+				FFB733512AE609BC0095F0FD /* TCThreadCreationView.swift in Sources */,
+				FFAAD89B2AE140C1009C63F5 /* TCCurrentProfileViewController.swift in Sources */,
+				FF00EA1C2ADFAD5000AED95A /* TCRegistrationView.swift in Sources */,
+				FFCA80B72AE6B62D00314F42 /* TCPagerView.swift in Sources */,
+				FFCA80B52AE6AAD600314F42 /* TCPagerTabCollectionViewCell.swift in Sources */,
+				FF0ACBC72AE274360071F9AF /* TCSearchTableViewCell.swift in Sources */,
+				FF4010AC2B077ECC002C7506 /* TCThreadsViewViewModel.swift in Sources */,
+				FFAAD8A22AE1490A009C63F5 /* TCThreadsTableViewCell.swift in Sources */,
+				FF617FB82B00D5E100F6AEFF /* TCAuthService.swift in Sources */,
+				FF4010A62B073F54002C7506 /* TCThreadCreationViewViewModel.swift in Sources */,
+				FF585B5B2B04B855000C10BA /* TCSearchTableViewCellViewModel.swift in Sources */,
+				FF6EB4D52B0359B500BBE7D4 /* TCProfileViewViewModel.swift in Sources */,
 				FF0624082ADE2C9E00D6DC1A /* AppDelegate.swift in Sources */,
+				FF31DE3D2ADE7883002D0259 /* TCTextField.swift in Sources */,
+				FFAAD8932AE13FB5009C63F5 /* TCTabBarViewController.swift in Sources */,
+				FFAAD8952AE1402C009C63F5 /* TCThreadsViewController.swift in Sources */,
+				FF6EB4D32B03556F00BBE7D4 /* TCUserService.swift in Sources */,
+				FF4010A82B074C5F002C7506 /* TCThreadService.swift in Sources */,
+				FFBA9CB52B216D8600E3466B /* TCDate.swift in Sources */,
+				FF584DED2B19F85200EA9D6D /* TCEditCurrentProfileViewController.swift in Sources */,
+				FFCA80AF2AE68DC300314F42 /* TCPagerPagesView.swift in Sources */,
+				FF8B4A5D2AE7CB0C002B0650 /* TCActivityTabItemView.swift in Sources */,
+				FF4010A42B073D4D002C7506 /* TCThread.swift in Sources */,
+				FF00EA1A2ADFAD3900AED95A /* TCRegistrationViewController.swift in Sources */,
+				FF4010AA2B07663D002C7506 /* TCPlaceholderWithImageView.swift in Sources */,
+				FF801B1A2B1DC6ED00E0B23E /* TCEditCurrentProfileView.swift in Sources */,
+				FF6EB4D12B031E3100BBE7D4 /* TCUser.swift in Sources */,
 				FF06240A2ADE2C9E00D6DC1A /* SceneDelegate.swift in Sources */,
+				FFAAD8992AE140A0009C63F5 /* TCActivitiesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +539,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -303,7 +603,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -324,6 +624,7 @@
 		};
 		FF0624192ADE2CA100D6DC1A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2109C0B557E861A763D13873 /* Pods-ThreadClone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -332,6 +633,7 @@
 				DEVELOPMENT_TEAM = FMMGHKGHHC;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ThreadClone/Info.plist;
+				INFOPLIST_KEY_NSFileProviderDomainUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -352,6 +654,7 @@
 		};
 		FF06241A2ADE2CA100D6DC1A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AF8EC0105C55860DE35B97D /* Pods-ThreadClone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -360,6 +663,7 @@
 				DEVELOPMENT_TEAM = FMMGHKGHHC;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ThreadClone/Info.plist;
+				INFOPLIST_KEY_NSFileProviderDomainUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;

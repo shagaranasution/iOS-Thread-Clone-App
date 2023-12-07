@@ -1,0 +1,6 @@
+framework module Pods_ThreadClone {
+  umbrella header "Pods-ThreadClone-umbrella.h"
+
+  export *
+  module * { export * }
+}
